@@ -1,6 +1,5 @@
 import React from "react";
 import './home.css'
-import Image from '../../assets/img.png';
 import Button from "../../components/Button";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
