@@ -1,0 +1,38 @@
+.button {
+    width: 320px;
+    height: 55px;
+
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 65px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .button {
+        margin-top: 50px;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+        width: 187px;
+        height: 50px;
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin: 0px auto;
+
+    }
+}
